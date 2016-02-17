@@ -5,6 +5,7 @@ int main(){
 	char* chaine="Hello World";
 	int i =0, nb_copies = 3, len= strlen(chaine);
 
+	//Commentaire de Ambroise!
 	char *copy = (char*) malloc(len*nb_copies);
 
 	for (i ; i<nb_copies; i++){
